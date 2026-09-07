@@ -24,20 +24,6 @@ timeline
 
 ---
 
-## Submission checklist
-
-Track this against the Innovation Studio project page. **Deadline: 22 Sept 2026.**
-
-- [ ] **Demo video (≤ 2:00)** uploaded — ⛔ *hard blocker: submission is blocked without it.* Put file in `assets/video/`.
-- [ ] At least one **screenshot / media** added to the project's Media Gallery (`assets/images/`).
-- [ ] **Description** tightened; fix typo "RTLA AI Agnet" → "Agent".
-- [ ] **Responsible-AI** paragraph added to the description (see `05-responsible-ai.md`).
-- [ ] **Quantified time-saving** (hrs → min) stated with a real measured baseline.
-- [ ] **Hero moment** (missing clock-gate detection) demonstrated in the video.
-- [ ] **PPTX** finalized in `assets/presentation/`.
-- [ ] GitHub repo link added to the project page.
-- [ ] Working MVP runs on one real RTLA sample end to end.
-
 ## Judging-criteria mapping (self-check)
 
 | Criterion | How we address it |
@@ -47,7 +33,3 @@ Track this against the Innovation Studio project page. **Deadline: 22 Sept 2026.
 | Technical execution | Deterministic engine + grounded RAG + real generated artifacts |
 | Responsible AI | Cited, HITL, no fabricated numbers (challenge tag) |
 | Clarity of demo | 2-min hero-moment video + before/after |
-
-## Who edits what
-
-Only the **project owner (Veekshitha Shetty)** or an event organizer can edit the Innovation Studio submission page and upload the video/description there. Team members (incl. Mayuresh) can build the repo, PPTX, and video assets and hand them to the owner to publish.

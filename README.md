@@ -60,19 +60,5 @@ RtlaAssist/
    └─ images/                ← screenshots / diagrams
 ```
 
-## Team
-
-| Role | Name |
-|------|------|
-| Owner | Veekshitha Shetty |
-| Member | Mayuresh Piske |
-| Member | Yagna Bharathi Mohan |
-| Member | Thejass Chandran |
-| Member | Padma Priya Sankar |
-
-## Submission checklist
-
-See [`docs/06-roadmap.md`](docs/06-roadmap.md#submission-checklist). **Hard blocker:** a demo video (≤ 2:00) is required to submit. **Deadline: 22 Sept 2026.**
-
 ---
 *Microsoft Confidential — Internal hackathon project.*
