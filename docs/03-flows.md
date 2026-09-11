@@ -38,7 +38,7 @@ sequenceDiagram
     participant Ret as Retriever
     participant AI as Azure OpenAI
 
-    Eng->>UI: "Why did power go up in ciu_ctrl this run?"
+    Eng->>UI: "Why did power go up in <module_x> this run?"
     UI->>Ret: Retrieve relevant metrics + prior run
     Ret->>AI: Cited context (rows + sections)
     AI-->>UI: Grounded answer + [source: power.rpt row 42]
@@ -62,11 +62,11 @@ flowchart LR
 **Output example:**
 ```
 ⚠ Missing clock gate
-  module : ciu_ctrl
+  module : <module_x>
   signal : data_reg[31:0]
-  file   : ciu_ctrl.sv:214
+  file   : <module_x>.sv:214
   reason : register free-running while enable inactive 87% of cycles
-  suggest: insert ICG on `data_reg` gated by `ciu_active`
+  suggest: insert ICG on `data_reg` gated by `<module_x>_active`
   confidence: 0.82   [evidence: toggle.rpt rows 88–91]
 ```
 

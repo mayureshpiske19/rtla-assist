@@ -111,8 +111,9 @@ for cx in mcx:
     ax.plot([cx, cx], [46, 41], color=NEU, lw=1.9, zorder=6)
 bus(13, 86, 41)
 flow([(18, 41), (18, 37)])
-# RTL source -> clock-gate detector (dashed)
-flow([(84, 84), (84, 58.5), (86, 58.5), (86, 56)], color=DASH_R, dashed=True, lw=2)
+# RTL source -> clock-gate detector (dashed, clean straight drop on the right,
+# clear of the distribution bus which ends at x86 and of the comb drop at x86)
+flow([(90, 84), (90, 56)], color=DASH_R, dashed=True, lw=2)
 # AI internal chain
 flow([(30, 32.5), (38, 32.5)], color=E_AI)
 flow([(62, 32.5), (68, 32.5)], color=E_AI)

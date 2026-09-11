@@ -31,7 +31,7 @@ Flags free-running clocks and points to `module:signal:file:line` with a suggest
 
 ### F6 · Cross-run regression diff — 📅 ⭐
 Ranked per-module deltas between two runs with an AI root-cause narrative.
-- **Why it wins:** "power ↑3.2% in `ciu_ctrl` driven by X" is a concrete, credible insight.
+- **Why it wins:** "power ↑3.2% in `<module_x>` driven by higher toggle activity" is a concrete, credible insight.
 
 ### F7 · Anomaly / outlier triage — 📅
 Statistical outlier detection with confidence score + evidence rows.

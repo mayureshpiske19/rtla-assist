@@ -25,7 +25,7 @@ This is repetitive, error-prone, and pulls senior engineers away from actually s
 |-------|-----------|-------|
 | **Today** | Auto-generate consolidated Excel summary + milestone PPTX + key-observations writeup from RTLA outputs | Hours → minutes per milestone |
 | **Today** | Interactive Q&A over power / performance / coverage / clock-gating with **cited, grounded answers** | Trustworthy, no hallucinated numbers |
-| **Next** | Cross-run regression diff with root-cause narrative | "Power ↑3.2% in `ciu_ctrl`, driven by X toggle activity" |
+| **Next** | Cross-run regression diff with root-cause narrative | "Power ↑3.2% in `<module_x>`, driven by higher toggle activity" |
 | **Next** | Missing clock-gate detection with **exact RTL line pointers** | Finds real bugs, not just summaries |
 | **Vision** | Anomaly triage, testcase recommendation, QoR tracking, design-optimization guidance | A living design-intelligence platform |
 
