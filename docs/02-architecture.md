@@ -10,6 +10,10 @@
 
 ## Component diagram
 
+![RTLA AI Assistant implementation block diagram](../assets/images/rtla_block_diagram.png)
+
+*Rendered block diagram (source: `assets/images/gen_block_diagram.py`). The Mermaid version below is kept for GitHub inline rendering and easy editing.*
+
 ```mermaid
 flowchart TB
     subgraph Inputs
